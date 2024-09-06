@@ -54,7 +54,8 @@ body {
     color: blue;
   }
   
-  .overweight {
+  .overweight,
+  .obesity {
     color: red;
   }
   

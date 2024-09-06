@@ -24,8 +24,11 @@ function getInputValues() {
     if (bmi <= 24.9) {
       return "Normal";
     }
+    if (bmi <= 29.9) {
+      return "Overweight";
+    }
     
-    return "OVERWEIGHT";
+    return "Obesity";
   }
   
   function setErrorMessage(errorMessage) {
