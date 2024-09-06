@@ -54,7 +54,6 @@ function getInputValues() {
     }
   
     let bmi = calculateBMI(values);
-    console.log(bmi);
     setOutput(bmi);
   }
   
