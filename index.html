@@ -1,0 +1,33 @@
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Erwiana's BMI Calculator</title>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="style.css">
+    </head>
+
+    <body>
+        <div class="container">
+            <form id="form">
+          
+              <div id="error"></div>
+              <div id="output">
+                <span>BMI Kamu:</span>
+                <span id="output-bmi"></span>
+              </div>
+          
+              <label for="tinggi" class="input-label">Tinggi (cm)</label>
+              <input type="number" id="tinggi" name="tinggi" placeholder="Tinggi" class="input" min="0" value="0">
+          
+              <label for="berat" class="input-label">Berat (kg)</label>
+              <input type="number" id="berat" placeholder="Berat" class="input" min="0" value="0">
+          
+              <input type="submit" value="Kalkulasi" id="button">
+            </form>
+          </div>
+        <script src="script.js"></script>
+    </body>
+</html>
