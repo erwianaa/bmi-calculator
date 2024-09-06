@@ -45,6 +45,7 @@ function getInputValues() {
   function handleFormSubmit(e) {
     e.preventDefault();
     setErrorMessage("");
+    setOutput("");
   
     let values = getInputValues();
     let errMessage = validateValues(values);
